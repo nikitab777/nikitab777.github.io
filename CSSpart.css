@@ -1,0 +1,72 @@
+#UserName {
+	text-align: center;
+	border: 0px solid lime;
+	background-color: lime;
+	color: white;
+	width: 400px;
+	min-height: 30px;
+	min-width: 400px;
+	border-radius: 18px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 50px; margin-bottom: 50px;
+	padding: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: #1b93e8;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.member:hover {
+	color: #0d9ce5;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+p {
+	font-size: 21px;
+	
+}
+
+#Hello {
+	font-weight: bold;
+	font-size: 23px;
+	color: #0edcdb;
+}
+
+ul {
+	border: 1px solid #18ec25;
+	border-radius: 10px;
+	box-shadow: 20px 20px 8px #33960a;
+	width: 150px;
+	color: white;
+	background-color: #18ec25;
+	font-size: 23px;
+}
+
+small {
+	font-size: 16px;
+	font-weight: 0;
+}
+
+#enemies {
+	background-color: #e81513;
+	color: white;
+}
+
+a {
+	font-weight: bold;
+	font-size: 19spx;
+}
