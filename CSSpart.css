@@ -23,7 +23,13 @@ h1 {
 	text-align: center;
 }
 
-img {
+h2 {
+	color: #1b93e8;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#Karl_Marks {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -32,7 +38,11 @@ img {
 .member:hover {
 	color: #0d9ce5;
 	font-weight: bold;
-	font-size: 24px;
+}
+
+#Albert_neponel {
+	float: right;
+	margin-bottom: 50px;
 }
 
 p {
@@ -47,12 +57,12 @@ p {
 }
 
 ul {
-	border: 1px solid #18ec25;
+	border: 1px solid #21F04F;
 	border-radius: 10px;
 	box-shadow: 20px 20px 8px #33960a;
 	width: 150px;
 	color: white;
-	background-color: #18ec25;
+	background-color: #21F04F;
 	font-size: 23px;
 }
 
@@ -68,5 +78,36 @@ small {
 
 a {
 	font-weight: bold;
-	font-size: 19spx;
+	font-size: 19px;
+}
+
+
+#listD {
+	position: relative;
+}
+
+#member_inform {
+	color: white;
+	font-size: 19px;
+	font-weight: 600;
+	border: 1px solid #7285F6;
+	border-radius: 24px;
+	padding: 10px;
+	position: absolute;
+	top: 50px;
+	right: 900px;
+	background-color: #7285F6;
+	min-width: 300px;
+	min-height: 270px;
+	box-shadow: 23px 18px 12px #054573;
+}
+
+#xxx {
+	margin-top: 190px;
+}
+
+#Albert_Lovyshka {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
