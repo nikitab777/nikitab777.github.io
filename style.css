@@ -1,0 +1,82 @@
+#Emblem {
+	position: block;
+}
+
+#Emblem1 {
+	position: block;
+}
+
+#header {
+	position: relative;
+	height: 700px;
+	margin-bottom: 50px;
+}
+
+.contacts {
+	position: absolute;
+	top: 10px;
+	font-weight: 900;
+	font-size: 32px;
+	color: #1e94de;
+	font-family: Florence, cursive;
+}
+
+#contacts_left {
+	left: 140px;
+}
+
+#contacts_right {
+	right: 140px;
+	bottom: 15px;
+}
+
+
+
+h1 {
+	color: #f38018;
+	font-size: 36px;
+	font-weight: 900;
+	/*text-decoration:*/
+	text-shadow: 8px 8px 6px grey;
+}
+
+#list_h {
+	text-aligh: left;
+}
+
+#inform_h {
+	text-align: center;
+}
+
+ul {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+p {
+	font-size: 20px;
+}
+
+.first_shop {
+	color: #c33eb9;
+}
+
+.second_shop {
+	color: #35af1d;
+}
+
+.discount {
+	color: #ea1919;
+	font-weight: 900;
+	font-size: 26px;
+}
+
+
+
+
+
+
+
+#d1 {
+	background-color: grey;
+}
