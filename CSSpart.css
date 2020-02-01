@@ -53,7 +53,7 @@ p {
 #Hello {
 	font-weight: bold;
 	font-size: 23px;
-	color: #0edcdb;
+	color: #fd9414;
 }
 
 ul {
@@ -95,14 +95,16 @@ a {
 	padding: 10px;
 	position: absolute;
 	top: 50px;
-	right: 900px;
+	right: 100px;
 	background-color: #7285F6;
-	min-width: 300px;
+	min-width: 420px;
+	width: 420px;
 	min-height: 270px;
+	height: 270px;
 	box-shadow: 23px 18px 12px #054573;
 }
 
-#xxx {
+#textU {
 	margin-top: 190px;
 }
 

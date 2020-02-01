@@ -13,7 +13,7 @@ function ClickInformGenady() { jQuery('#member_inform').html("Генрих"); }
 
 
 
-jQuery('document').ready(function() {
+/*jQuery('document').ready(function() {
 	
 	var name = prompt("Введите ваше имя пользователя"), password = "КОММУНИЗМ", PasswordTest = prompt("Пожалуйста, введите ваш пароль");
 	
@@ -29,10 +29,10 @@ jQuery('document').ready(function() {
 	else
 	{
 		jQuery('#base').remove();
-		$('body').append('<img src="Albert_Lovyshka.jpg" id="Albert_Lovyshka"/>');
+		$('body').append('<img src="Albert_Lovyshka.jpeg" id="Albert_Lovyshka"/>');
 	}
 	
 	
 	
 	
-});
+});*/
