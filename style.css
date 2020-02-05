@@ -2,41 +2,35 @@
 	position: block;
 }
 
-#Emblem1 {
+#EmblemHead {
 	position: block;
 }
 
 #header {
 	position: relative;
-	height: 700px;
-	margin-bottom: 50px;
+	margin-bottom: 7%;
 }
+
 
 .contacts {
 	position: absolute;
 	top: 10px;
 	font-weight: 900;
-	font-size: 32px;
 	color: #1e94de;
 	font-family: Florence, cursive;
 }
 
 #contacts_left {
-	left: 140px;
+	left: 12%;
 }
 
 #contacts_right {
-	right: 140px;
-	bottom: 15px;
+	right: 12%;
 }
-
-
 
 h1 {
 	color: #f38018;
-	font-size: 36px;
 	font-weight: 900;
-	/*text-decoration:*/
 	text-shadow: 8px 8px 6px grey;
 }
 
@@ -71,12 +65,35 @@ p {
 	font-size: 26px;
 }
 
+.EmblemScript {
+	position: absolute;
+}
+
+.EmblemList {
+	position: absolute;
+	top: 200%;
+}
 
 
 
 
 
-
-#d1 {
+/*#d1 {
 	background-color: grey;
 }
+
+
+
+
+
+
+
+
+
+
+footer {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  background-color: var(--footer-color)
+}*/
