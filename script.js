@@ -1,4 +1,4 @@
-var StockIndex = 1;
+var StockIndex = 1, CarBrand;
 
 
 function LeafAction(LeafSide)
@@ -14,18 +14,28 @@ function LeafAction(LeafSide)
 	switch (StockIndex)
 	{
 		case 0:
-			$('#StockBox').append('<img src="images/Stock1.png" width=10% height=15% class="StockImage">');
+			$('#StockBox').append('<img src="images/Stock1.png" width=60% height=90% class="StockImage">');
 		break;
 		case 1:
-			$('#StockBox').append('<img src="images/Stock2.png" width= height= class="StockImage">');
+			$('#StockBox').append('<img src="images/Stock2.png" width=60% height=90% class="StockImage">');
 		break;
 		case 2:
-			$('#StockBox').append('<img src="images/Stock3.png" width= height= class="StockImage">');
+			$('#StockBox').append('<img src="images/Stock3.png" width=60% height=90% class="StockImage">');
 		break;
 		case 3:
-			$('#StockBox').append('<img src="images/Stock4.png" width= height= class="StockImage">');
+			$('#StockBox').append('<img src="images/Stock4.png" width=60% height=90% class="StockImage">');
 		break;
 	}
+}
+
+function CarModel_Click(CarBrand)
+{
+	if (CarBrand == "Ford") $('#Base2').append('<p>dlldlsldlfmrkskfmk</p>');
+	else if (CarBrand == "Daewoo") $('#Base2').append('<p>dlldls,ldlfmrks;kfmk</p>');
+	else if (CarBrand == "Mazda") $('#Base2').append('<p>dlldls,ldlfmrks;kfmk</p>');
+	else if (CarBrand == "Chevrolet") $('#Base2').append('<p>dlldls,ldlfmrks;kfmk</p>');
+	else if (CarBrand == "Kia") $('#Base2').append('<p>dlldls,ldlfmrks;kfmk</p>');
+	else if (CarBrand == "Hyundai") $('#Base2').append('<p>dlldls,ldlfmrks;kfmk</p>');
 }
 
 /*$(document).click(function(event){
@@ -48,6 +58,8 @@ function Click()
 
 $('document').ready(function() {
 	LeafAction('left');
+	
+	//$('#Base2').append('<p>dlldlsldlfmrkskfmk</p>');
 	
 	
 	

@@ -131,6 +131,27 @@ p {
 	color: #1aa7ef;
 }
 
+.CarBrand {
+	font-size: 35px;
+	color: #590221;
+	font-weight: 900;
+}
+
+.CarModel {
+	font-size: 26px;
+	font-weight: 0;
+}
+
+.CarModel:hover {
+	font-size: 29px;
+	font-weight: 600;
+}
+
+.StockImage {
+	margin-left: 20%;
+	margin-top: 10%;
+}
+
 /*#FirstScriptEmblem {
 	position: relative;
 }
