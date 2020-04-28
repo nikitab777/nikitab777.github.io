@@ -9,20 +9,37 @@ function ClickInformBatynur() { jQuery('#member_inform').html("Батыйнур"
 function ClickInformSanya() { jQuery('#member_inform').html("Саня"); }
 function ClickInformDanya() { jQuery('#member_inform').html("Данил"); }
 function ClickInformGenady() { jQuery('#member_inform').html("Генрих"); }
+function ClickInformRamyla() { jQuery('#member_inform').html("Рамиля"); }
+function ClickInformAnnya() { jQuery('#member_inform').html("Анна"); }
+function ClickInformNail() { jQuery('#member_inform').html("Наиль"); }
+
+
+
+function MotyaMemes()
+{	$('#memes').empty();
+	$('#memes').append('<img class="MemImg" src="Motya1Mem.jpg" width=20% height=26%> <br/> <img class="MemImg" src="Motya2Mem.jpg" width=20% height=26%> <br/> <img class="MemImg" src="Motya3Mem.jpg" width=20% height=26%> <br/> <img class="MemImg" src="Motya4Mem.jpg" width=20% height=26%>');
+}
+
+function ArturMemes()
+{
+	
+}
+
+
 
 
 
 
 jQuery('document').ready(function() {
 	
-	var name = prompt("Введите ваше имя пользователя"), password = "КОММУНИЗМ", PasswordTest = prompt("Пожалуйста, введите ваш пароль");
+	var name = prompt("Введите ваше имя пользователя"), Password = prompt("Пожалуйста, введите ваш пароль");
 	
-	if (password == PasswordTest)
+	if ((Password == "КОММУНИЗМ") || (Password == "КОММУНИЗМ "))
 	{	
-		if (name.length <= 12) { jQuery('#UserName').html(name); jQuery('#Hello').html("Приветствуем тебя, товарищ" + " " + name + "!!!"); }
-		else { jQuery('#UserName').html("Слишком длинное имя пользователя"); }
+		if (name.length <= 12) jQuery('#Hello').html("Приветствуем тебя, товарищ" + " " + name + "!!!");
+		else jQuery('#Hello').html("Слишком длинное имя пользователя");
 		
-		alert("Вход в аккаунт успешно выполнен. Добро пожаловать!");
+		if (name.length <= 12) alert("Добро пожаловать, товарищ " + name + "!!!"); else alert("Добро пожаловать, товарищ!!!");
 		
 		
 	}

@@ -1,4 +1,4 @@
-#UserName {
+/*#UserName {
 	text-align: center;
 	border: 0px solid lime;
 	background-color: lime;
@@ -14,7 +14,7 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 
 h1 {
 	color: #1b93e8;
@@ -51,16 +51,38 @@ p {
 }
 
 #Hello {
-	font-weight: bold;
-	font-size: 23px;
+	font-weight: 900;
+	font-size: 27px;
 	color: #fd9414;
+}
+
+#music {
+	border: 0px solid #a9a9a9;
+	border-radius: 30px;
+	background-color: #a9a9a9;
+	color: white;
+	max-width: 23%;
+	margin-left: 2%;
+	padding: 40px;
+	box-shadow: 20px 20px 5px gray;
+	height: 200px;
+}
+
+.music_A {
+	color: white;
+	font-weight: 900;
+	font-size: 23px;
+}
+.music_A:hover {
+	font-size: 26px;
+	cursor:pointer;
 }
 
 ul {
 	border: 1px solid #21F04F;
 	border-radius: 10px;
 	box-shadow: 20px 20px 8px #33960a;
-	width: 150px;
+	width: 10%;
 	color: white;
 	background-color: #21F04F;
 	font-size: 23px;
@@ -71,14 +93,10 @@ small {
 	font-weight: 0;
 }
 
-#enemies {
-	background-color: #e81513;
-	color: white;
-}
-
 a {
 	font-weight: bold;
 	font-size: 19px;
+	font-weight: 900;
 }
 
 
@@ -94,13 +112,13 @@ a {
 	border-radius: 24px;
 	padding: 10px;
 	position: absolute;
-	top: 50px;
-	right: 100px;
+	top: 15%;
+	right: 17%;
 	background-color: #7285F6;
-	min-width: 420px;
-	width: 420px;
-	min-height: 270px;
-	height: 270px;
+	min-width: 30%;
+	width: 30%;
+	min-height: 45%;
+	height: 45%;
 	box-shadow: 23px 18px 12px #054573;
 }
 
@@ -112,5 +130,38 @@ a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#footer {
+	background-color: #E1DCDB;
+	margin-top: 7%;
+	font-size: 27px;
+	font-weight: 900;
+}
+
+#FlagImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.AutorOfMemes {
+	color: blue;
+	font-weight: 900;
+	font-size: 21px;
+}
+
+.AutorOfMemes:hover {
+	font-size: 26px;
+	font-weight: 900;
+}
+
+#OurAutors {
+	font-weight: 900;
+	font-size: 28px;
+}
+
+.MemImg {
+	margin: 2%;
 }
 /**jgcvjgcgj/
